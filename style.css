@@ -1,0 +1,38 @@
+body {
+  background: rgb(255, 219, 219);
+}
+
+.comm-navigation__list li:first-child {
+  display: none;
+}
+
+.siteforceCptBody .cHeader .cBrandingLogo {
+  width: 120px !important;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 476px;
+  padding: 96px;
+  background-color: #ffead2;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer-left a {
+  font-size: 0.875rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 8px;
+  grid-column-gap: 16px;
+}
